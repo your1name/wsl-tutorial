@@ -13,7 +13,7 @@ sudo apt update && sudo apt full-upgrade -y
 ```bash
 >wsl --unregister <name distro>
 ```
-	**example : wsl --unregister Ubuntu**
+	**example: wsl --unregister Ubuntu**
 
 **cd ra đường dẫn vừa export**
 ```bash
@@ -25,7 +25,7 @@ sudo apt update && sudo apt full-upgrade -y
 
 **open: cmd**
 ```bash
-> wsl -u <username>
+>wsl -u <username>
 ```
 	**example: wsl -u yourname**
 xong **cd** là ra dc file gốc trên wsl
