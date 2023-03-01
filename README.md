@@ -9,22 +9,22 @@ sudo apt update && sudo apt full-upgrade -y
 ```bash
 >wsl --export <name distro> ...\ubuntu.tar
 ```
-	example:  wsl --export D:\WSL\ubuntu.tar
+	**example:  wsl --export D:\WSL\ubuntu.tar**
 ```bash
 >wsl --unregister <name distro>
 ```
-	example : wsl --unregister Ubuntu
+	**example : wsl --unregister Ubuntu**
 
->cd ra đường dẫn vừa export
+**cd ra đường dẫn vừa export**
 ```bash
 >wsl --import <new name distro> <path giải nén> <path file nén>
 ```
 	example: wsl --import Ubuntu_z .\ .\ubuntu.tar
+**
+How to use?**
 
-How to use?
-
-open: cmd
+**open: cmd**
 ```bash
 > wsl -u <username>
 ```
-	example: wsl -u yourname
+	**example: wsl -u yourname**
