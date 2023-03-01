@@ -1,6 +1,6 @@
 # Buid môi trường linux cơ bản để dev
 
->sudo apt install build-essential
+>sudo apt install build-essential \n
 >sudo apt update && sudo apt full-upgrade -y
 
 # đổi phân vùng ghi wsl2 - mở cmd
