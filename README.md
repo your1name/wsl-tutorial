@@ -20,11 +20,12 @@ sudo apt update && sudo apt full-upgrade -y
 >wsl --import <new name distro> <path giải nén> <path file nén>
 ```
 	example: wsl --import Ubuntu_z .\ .\ubuntu.tar
-**
-How to use?**
+
+**How to use?**
 
 **open: cmd**
 ```bash
 > wsl -u <username>
 ```
 	**example: wsl -u yourname**
+xong **cd** là ra dc file gốc trên wsl
