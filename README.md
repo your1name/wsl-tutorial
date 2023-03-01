@@ -7,7 +7,7 @@ sudo apt update && sudo apt full-upgrade -y
 # đổi phân vùng ghi wsl2 - mở cmd
 
 ```bash
->wsl --export <name distro> ...\ubuntu.tar
+>wsl --export <name distro> path\ubuntu.tar
 ```
 	**example:  wsl --export D:\WSL\ubuntu.tar**
 ```bash
