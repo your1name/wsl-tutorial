@@ -7,17 +7,17 @@ sudo apt update && sudo apt full-upgrade -y
 # đổi phân vùng ghi wsl2 - mở cmd
 
 ```bash
->wsl --export <name distro> .....\ubuntu.tar
+wsl --export <name distro> .....\ubuntu.tar
 ```
 	**example:  wsl --export D:\WSL\ubuntu.tar**
 ```bash
->wsl --unregister <name distro>
+wsl --unregister <name distro>
 ```
 	**example: wsl --unregister Ubuntu**
 
 **cd ra đường dẫn vừa export**
 ```bash
->wsl --import <new name distro> <path giải nén> <path file nén>
+wsl --import <new name distro> <path giải nén> <path file nén>
 ```
 	example: wsl --import Ubuntu_z .\ .\ubuntu.tar
 
@@ -25,7 +25,7 @@ sudo apt update && sudo apt full-upgrade -y
 
 **open: cmd**
 ```bash
->wsl -u <username>
+wsl -u <username>
 ```
 	**example: wsl -u yourname**
 xong **cd** là ra dc file gốc trên wsl
