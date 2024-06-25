@@ -4,7 +4,7 @@
 sudo apt install build-essential
 sudo apt update && sudo apt full-upgrade -y
 ```
-# đổi phân vùng ghi wsl2 - mở cmd
+# Đổi phân vùng ghi wsl2 - mở cmd
 
 ```bash
 wsl --export <name distro> .....\ubuntu.tar
@@ -29,3 +29,15 @@ wsl -u <username>
 ```
 	**example: wsl -u yourname**
 xong **cd** là ra dc file gốc trên wsl
+
+# Git lưu cache 
+
+``` bash
+$ git config --global credential.helper cache
+```
+# Git xoá cache
+
+```bash
+$ git config --global --unset credential.helper
+$ git config --system --unset credential.helper
+```
